@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# 当期版本
+# Current version
 export VERSION="|V1.0.03|2024-05-25|"
 
-# 雷达类型：A1/A2/C1/G4/S2L/LD14P/MS200
+# Lidar type：A1/A2/C1/G4/S2L/LD14P/MS200
 export LIDAR_TYPE=LD19
 
-# 深度摄像头类型：ascamera
+# Depth camera type：ascamera
 export DEPTH_CAMERA_TYPE=ascamera
 
-# 机器类型：JetRover_Mecanum/JetRover_Tank/JetRover_Acker
+# Machine type：JetRover_Mecanum/JetRover_Tank/JetRover_Acker
 export MACHINE_TYPE=JetRover_Acker
 
-# 主从机设置：robot_xxx
+# Master/slave settings：robot_xxx
 export HOST=/ #robot_1
 export MASTER=/ #robot_1
 
-# 语言设置，主要涉及语音部分：Chinese/English
+# Language settings, mainly for voice：Chinese/English
 export ASR_LANGUAGE=Chinese
 
 export need_compile=False
@@ -24,7 +24,7 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 export ROS_DOMAIN_ID=0
 
 echo -e "\033[32m----------------------------------------------
-当前环境是ROS2|The current environment is ROS2
+The current environment is ROS2|The current environment is ROS2
 ----------------------------------------------\033[0m"
 echo -e "LIDAR:   \033[32m$LIDAR_TYPE\033[0m"
 echo -e "CAMERA:  \033[32m$DEPTH_CAMERA_TYPE\033[0m"
