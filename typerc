@@ -10,14 +10,14 @@ export LIDAR_TYPE=LD19
 export DEPTH_CAMERA_TYPE=ascamera
 
 # Machine type：JetRover_Mecanum/JetRover_Tank/JetRover_Acker
-export MACHINE_TYPE=JetRover_Acker
+export MACHINE_TYPE=MentorPi_Mecanum
 
 # Master/slave settings：robot_xxx
 export HOST=/ #robot_1
 export MASTER=/ #robot_1
 
 # Language settings, mainly for voice：Chinese/English
-export ASR_LANGUAGE=Chinese
+export ASR_LANGUAGE=English
 
 export need_compile=False
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
